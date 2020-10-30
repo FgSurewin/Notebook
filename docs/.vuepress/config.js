@@ -38,38 +38,38 @@ module.exports = {
 					children: ["limit", "continuity", "discontinuity"],
 				},
 			],
-			"/introduction/": [
-				{
-					title: "Intro",
-					path: "/introduction/",
-					collapsable: false,
-					sidebarDepth: 1,
-					children: ["", "testOne", "testTwo"],
-				},
-			],
-			"/web/front/": [
-				{
-					title: "Group 1",
-					path: "/web/front/",
-					collapsable: false,
-					sidebarDepth: 1,
-					children: ["", "react", "vue"],
-				},
-			],
-			"/web/back/": [
-				{
-					title: "Group 1",
-					path: "/web/back/",
-					collapsable: false,
-					sidebarDepth: 1,
-					children: [""],
-				},
-			],
-			"/": [
-				"" /* / */,
-				"contact" /* /contact.html */,
-				"about" /* /about.html */,
-			],
+			// "/introduction/": [
+			// 	{
+			// 		title: "Intro",
+			// 		path: "/introduction/",
+			// 		collapsable: false,
+			// 		sidebarDepth: 1,
+			// 		children: ["", "testOne", "testTwo"],
+			// 	},
+			// ],
+			// "/web/front/": [
+			// 	{
+			// 		title: "Group 1",
+			// 		path: "/web/front/",
+			// 		collapsable: false,
+			// 		sidebarDepth: 1,
+			// 		children: ["", "react", "vue"],
+			// 	},
+			// ],
+			// "/web/back/": [
+			// 	{
+			// 		title: "Group 1",
+			// 		path: "/web/back/",
+			// 		collapsable: false,
+			// 		sidebarDepth: 1,
+			// 		children: [""],
+			// 	},
+			// ],
+			// "/": [
+			// 	"" /* / */,
+			// 	"contact" /* /contact.html */,
+			// 	"about" /* /about.html */,
+			// ],
 		},
 	},
 	// markdown: {
